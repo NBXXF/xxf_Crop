@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
-apply from: '../mavenpush.gradle'
+//apply from: '../mavenpush.gradle'
+apply plugin: 'com.github.dcendents.android-maven'
 
 android {
     compileSdkVersion 27
@@ -8,8 +9,8 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 27
-        versionCode 23
-        versionName "2.2.2-native"
+        versionCode 1
+        versionName "1.0.0"
 
         vectorDrawables.useSupportLibrary = true
     }
