@@ -64,7 +64,7 @@ public class SampleActivity extends BaseActivity implements UCropFragmentCallbac
     private CheckBox mCheckBoxFreeStyleCrop;
     private Toolbar toolbar;
     private ScrollView settingsView;
-    private int requestMode = BuildConfig.RequestMode;
+    private int requestMode =1;
 
     private UCropFragment fragment;
     private boolean mShowLoader;
