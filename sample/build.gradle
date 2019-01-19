@@ -37,8 +37,8 @@ android {
 }
 
 dependencies {
-    implementation "com.android.support:appcompat-v7:$support"
-    implementation "com.android.support:support-compat:$support"
+    implementation "com.android.support:appcompat-v7:27.1.0"
+    implementation "com.android.support:support-compat:27.1.0"
     implementation "com.android.support.constraint:constraint-layout:$constraints"
     implementation project(':ucrop')
 }
