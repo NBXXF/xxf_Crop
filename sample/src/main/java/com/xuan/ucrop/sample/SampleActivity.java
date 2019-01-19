@@ -1,4 +1,4 @@
-package com.yalantis.ucrop.sample;
+package com.xuan.ucrop.sample;
 
 import android.Manifest;
 import android.annotation.TargetApi;
@@ -38,6 +38,7 @@ import com.yalantis.ucrop.UCrop;
 import com.yalantis.ucrop.UCropActivity;
 import com.yalantis.ucrop.UCropFragment;
 import com.yalantis.ucrop.UCropFragmentCallback;
+import com.yalantis.ucrop.sample.R;
 
 import java.io.File;
 import java.util.Locale;

@@ -1,4 +1,4 @@
-package com.yalantis.ucrop.sample;
+package com.xuan.ucrop.sample;
 
 import android.Manifest;
 import android.annotation.TargetApi;
@@ -26,6 +26,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.yalantis.ucrop.sample.R;
 import com.yalantis.ucrop.view.UCropView;
 
 import java.io.File;
