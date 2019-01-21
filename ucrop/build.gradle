@@ -45,6 +45,7 @@ android {
 dependencies {
     implementation 'com.android.support:appcompat-v7:27.1.0'
     implementation 'com.squareup.okhttp3:okhttp:3.8.1'
+    implementation 'com.android.support:support-annotations:27.1.0'
 }
 
 // 定义两个链接，下面会用到。
@@ -127,7 +128,8 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = "xxf_crop"  //Repository名字 需要自己在bintray网站上先添加
-        name = "xxf_crop"// 发布到Bintray上的项目名字，这里的名字不是compile 'com.ansen.library:circleimage:1.0.1'中的circleimage。
+        name = "xxf_crop"
+// 发布到Bintray上的项目名字，这里的名字不是compile 'com.ansen.library:circleimage:1.0.1'中的circleimage。
         userOrg = 'asange'//Bintray的组织id
         websiteUrl = siteUrl
         vcsUrl = gitUrl
